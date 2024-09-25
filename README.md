@@ -55,5 +55,5 @@ We save the data from each chunk and concatenate it together into google.csv.
 If A_x is empty and A_y is not empty, set A_x = A_y, and vice versa.
 ### We drop some unnecessary columns.
 ## Still in work
-We merge with Facebook data on the phone. using inner join
+We merge with Facebook data on the phone. using inner join . This way we find many valuable infos such as nr of reviews , rating , and experience from facebook data and website data
 
