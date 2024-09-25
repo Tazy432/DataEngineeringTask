@@ -48,11 +48,12 @@ We save the data from each chunk and concatenate it together into google.csv.
 ### We transform the phone numbers from scientific notation into basic phone numbers (e.g., \+\d{11}), and then we check the number of digits to ensure the phone number is correct.
 ### We save the data and write it to a new file called website.csv.
 # Merging:
-## Not complete - many things need attention:
+## Not complete - many things need attention( cleaning , columns, join method etc)
 ### We merge the data from the website with the data from Google on the phone number (left merge, we are especially interested in website data since it is 5 times smaller than the Google dataset).
 ### We merge on phone (phone is a pretty unique string, so we might use it as the key).
 ### We rename some columns to avoid conflicts, then solve them by filling in missing values. For example:
 If A_x is empty and A_y is not empty, set A_x = A_y, and vice versa.
 ### We drop some unnecessary columns.
-## Not working right now:
-We merge with Facebook data on the phone.
+## Still in work
+We merge with Facebook data on the phone. using inner join
+
